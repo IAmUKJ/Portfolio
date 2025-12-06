@@ -192,7 +192,7 @@ export default function Portfolio() {
                 <Linkedin size={20} />
                 LinkedIn
               </a>
-              <a href="https://leetcode.com/u/codeForSwaraj/" target="_blank" rel="noopener noreferrer"
+              <a href="https://leetcode.com/u/24x7/" target="_blank" rel="noopener noreferrer"
                  className="flex items-center gap-2 bg-[#1F1F1F] hover:bg-[#F8D210] hover:text-[#121212] border border-[#F8D210] px-6 py-3 rounded-full transition-all hover:scale-105">
                 <Code size={20} />
                 LeetCode
@@ -404,7 +404,7 @@ export default function Portfolio() {
                className="text-[#EDEDED] hover:text-[#F8D210] transition-colors">
               <Linkedin size={32} />
             </a>
-            <a href="https://leetcode.com/u/codeForSwaraj/" target="_blank" rel="noopener noreferrer"
+            <a href="https://leetcode.com/u/24x7/" target="_blank" rel="noopener noreferrer"
                 className="text-[#EDEDED] hover:text-[#F8D210] transition-colors">
               <Code size={32} />
             </a>
