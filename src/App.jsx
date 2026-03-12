@@ -33,6 +33,19 @@ export default function Portfolio() {
 
   const projects = [
     {
+      name: "LifeLong",
+      description: "AI-Powered Patient doctor connect platform.",
+      tech: ["React","Vite","MongodB","Redis","TailwindCSS","Material-UI","Framer Motion","Node.js","Express.js","Razorpay"],
+      features: [
+        "Built a Doctor-Patient connect portal , patient can cannect to doctors and can chat with the doctors.",
+        "There is an AI-Health Assistant , patient can asks anything by telling their symptoms.",
+        "Integrated Razorpay Payment Gateway for platform fee.",
+        "Integrated redis for caching.",
+        "Implement JWT Authentication using cookies."
+      ],
+      link: "https://lifelong-1.netlify.app/"
+    },
+    {
       name: "SpeakUp",
       description: "AI-Powered Speech Practice Platform using WebRTC and real-time feedback through AI-driven analysis",
       tech: ["React", "Material UI", "Framer Motion", "Node.js", "Express.js"],
@@ -105,8 +118,13 @@ export default function Portfolio() {
       icon: Award
     },
     {
+      title: "Hacktoberfest 2025",
+      description: "Successfully merged 6PR(pull requests).",
+      icon: Award
+    },
+    {
       title: "Highest Leetcode Rating",
-      description: "Rating of 1651",
+      description: "Rating of 1834",
       icon: Code
     },
     {
@@ -192,7 +210,7 @@ export default function Portfolio() {
                 <Linkedin size={20} />
                 LinkedIn
               </a>
-              <a href="https://leetcode.com/u/24x7/" target="_blank" rel="noopener noreferrer"
+              <a href="https://leetcode.com/u/Ukj1976/" target="_blank" rel="noopener noreferrer"
                  className="flex items-center gap-2 bg-[#1F1F1F] hover:bg-[#F8D210] hover:text-[#121212] border border-[#F8D210] px-6 py-3 rounded-full transition-all hover:scale-105">
                 <Code size={20} />
                 LeetCode
@@ -222,7 +240,7 @@ export default function Portfolio() {
                 <div>
                   <p className="text-lg font-semibold text-[#F8D210]">B.Tech (Computer Science)</p>
                   <p className="text-[#EDEDED]">Netaji Subhas University of Technology</p>
-                  <p className="text-[#EDEDED]/60">2023-2027 | CGPA: 7.63</p>
+                  <p className="text-[#EDEDED]/60">2023-2027 | CGPA: 7.62</p>
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-[#F8D210]">CBSE (Class XII)</p>
@@ -404,7 +422,7 @@ export default function Portfolio() {
                className="text-[#EDEDED] hover:text-[#F8D210] transition-colors">
               <Linkedin size={32} />
             </a>
-            <a href="https://leetcode.com/u/24x7/" target="_blank" rel="noopener noreferrer"
+            <a href="https://leetcode.com/u/Ukj1976/" target="_blank" rel="noopener noreferrer"
                 className="text-[#EDEDED] hover:text-[#F8D210] transition-colors">
               <Code size={32} />
             </a>
