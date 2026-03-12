@@ -198,6 +198,7 @@ export default function Portfolio() {
             <p className="text-lg text-[#EDEDED]/80 mb-8 max-w-2xl mx-auto">
               Building innovative web applications with cutting-edge technologies. 
               Specialized in full-stack development with a passion for algorithms and data structures.
+              Exploring Deep Learning and Computer Vision.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <a href="https://github.com/IAmUKJ" target="_blank" rel="noopener noreferrer" 
